@@ -1,0 +1,25 @@
+.wrapper {
+  position: fixed;
+  top: 0;
+  right: 200%;
+
+  background-color: rgba(24, 24, 24, 0.8);
+  border-radius: 8px;
+  padding: 20px 10px;
+
+  color: white;
+
+  .list {
+    display: flex;
+    margin-top: 20px;
+
+    img {
+      width: 80px;
+      object-fit: fill;
+      border-radius: 8px;
+      margin: 0 2px;
+
+      cursor: pointer;
+    }
+  }
+}

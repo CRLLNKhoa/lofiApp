@@ -1,0 +1,20 @@
+.wrapper {
+  padding: 6px 20px;
+  background-color: rgba(24, 24, 24, 0.8);
+  z-index: 20;
+  position: fixed;
+
+  top: 10px;
+  left: 120px;
+  border-radius: 8px;
+
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+
+  transition: all 1s linear;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,147 @@
+b {
+  color: #f3a952;
+  font-size: 12px;
+}
+
+.choice {
+  border-radius: 999px;
+  border: 3px solid white;
+  padding: 15px;
+  z-index: 10;
+  position: fixed;
+
+  cursor: pointer;
+
+  transition: all 1s linear;
+}
+
+.choice:hover > .choice-hover {
+  display: block;
+}
+
+.choice-hover {
+  background-color: #f3a952;
+  padding: 12px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+
+  border-radius: 999px;
+  display: none;
+}
+
+.volumm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.volumm input {
+  margin-top: 5px;
+  width: 60px;
+  accent-color: #f3a952;
+}
+
+.rhap_container {
+  background-color: rgba(24, 24, 24, 0.8) !important;
+  border-radius: 8px;
+}
+
+.rhap_time {
+  color: white !important;
+}
+.rhap_button-clear {
+  color: white !important;
+}
+.rhap_repeat-button {
+  color: white !important;
+}
+.rhap_progress-filled{
+    background-color: white !important;
+}
+.rhap_download-progress{
+    background-color: #646464!important;
+}
+.rhap_progress-filled{
+    background-color: white!important;
+}
+
+.gift{
+  position: fixed;
+  top: 15px;
+  left: 320px;
+  z-index: 14;
+
+  color: yellow;
+  cursor: pointer;
+
+  animation: infinite shake 1s linear;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.ant-modal-content {
+  background-color: rgba(24, 24, 24, 0.8)!important;
+  position: fixed;
+}
+
+.ant-modal-header {
+  background-color: rgba(24, 24, 24, 0.8)!important;
+}
+
+.ant-select-selector{
+  background-color: rgba(24, 24, 24, 0.8)!important;
+  color: white;
+  float: left;
+  margin-left: 20px!important;
+  border: none!important;
+}
+
+.ant-select-selection-item{
+  color: white;
+  background-color: rgba(24, 24, 24, 0.8)!important;
+}
+
+.icon{
+  position: fixed;
+  z-index: 14;
+  bottom: 10px;
+  right: 20px;
+
+  font-size: 40px;
+  color: rgba(24, 24, 24, 0.8);
+  cursor: pointer;
+}
+
+.text{
+  position: fixed;
+  z-index: 14;
+  top: 10px;
+  left: 320px;
+  padding: 6px;
+
+  border-radius: 8px;
+  font-weight: bold;
+  background-color: rgba(24, 24, 24, 0.8);
+
+  font-size: 13px;
+  color: white;
+  cursor: pointer;
+
+  transition: all 1s linear;
+}

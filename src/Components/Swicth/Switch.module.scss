@@ -1,0 +1,25 @@
+.wrapper {
+  position: fixed;
+  z-index: 10;
+  cursor: pointer;
+  overflow: hidden;
+
+  bottom: 20px;
+  left: 20px;
+
+  font-size: 16px;
+  color: white;
+  background-color: orange;
+
+  display: flex;
+  padding: 5px 10px;
+  border-radius: 99px;
+  justify-content: space-between;
+  align-items: center;
+
+  transition: all 0.4s linear;
+
+  .dot {
+    transition: all 0.2s linear;
+  }
+}
